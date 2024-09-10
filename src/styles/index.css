@@ -1,3 +1,20 @@
-/* 
-    General Styles
-*/
+.detail-label {
+    color: #ffc107; /* Color de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
+    font-size: x-large;
+}
+
+.detail-value {
+    color: white; /* Color de los valores */
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.heart-icon {
+    margin-left: 8px; /* Espacio entre el texto y el ícono del corazón */
+  }
+  
+  .trash-icon {
+    margin-left: 10px; /* Espacio entre el texto del favorito y el ícono del bote de basura */
+    cursor: pointer;
+  }
